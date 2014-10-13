@@ -75,4 +75,4 @@ clean_css:
 	rm -rf $(shell pwd)/$(DISTDIR)/css/*
 
 # Does not produce new files
-.PHONY: all jscs jshint sass all build build_js build_css clean clean_js clean_css
+.PHONY: all jscs jshint sass all build js build_js css build_css clean clean_js clean_css
